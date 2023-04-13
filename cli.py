@@ -1,7 +1,6 @@
 import functions
 import time
 
-
 time_now = time.strftime("%b %d, %Y %H:%M:%S")
 print(f"Is is, {time_now}")
 while True:
