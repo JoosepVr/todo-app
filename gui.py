@@ -1,6 +1,12 @@
 import functions
 import PySimpleGUI as Pys
 import time
+import os
+
+""" Makes sure, file exists and if not, makes new file """
+if not os.path.exists("todos.txt"):
+	with open("todos.txt", "w") as file:
+		pass
 
 Pys.theme("Dark2")
 
