@@ -7,11 +7,11 @@ Pys.theme("Dark2")
 current_time = Pys.Text("", key="clock")
 label = Pys.Text("Type in a to-do")
 input_box = Pys.InputText(tooltip="Enter todo", key="todo")
-add_button = Pys.Button("Add")
+add_button = Pys.Button(size=2, image_source="Add.png", key="Add", tooltip="Add TODO")
 list_box = Pys.Listbox(values=functions.get_todos(), key="todos",
 					   enable_events=True, size=[45,10])
-edit_button = Pys.Button("Edit")
-complete_button = Pys.Button("Complete")
+edit_button = Pys.Button("Edit", tooltip="Edit")
+complete_button = Pys.Button("Complete", tooltip="Finish TODO")
 exit_button = Pys.Button("Exit")
 
 window = Pys.Window("My To-Do App",
