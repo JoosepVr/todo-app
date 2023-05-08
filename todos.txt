@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-meelis
 kapsasjoonkapsasjuur
-jaan
-kaal
-=======
 add1
 >>>>>>> origin/master
+New list
